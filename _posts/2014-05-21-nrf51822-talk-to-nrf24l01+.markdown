@@ -6,9 +6,9 @@ categories: jekyll update
 ---
 
 nRF24L01+采用的是所谓Enhanced Shock Burst技术，这种技术在更新的nRF51系列里，已经不存在于硬件之中了。但是nRF51的SDK中有提供一份软实现。
-在nrf_esb.h中定义了一组esb开头的函数，他们具体的用法，在SDK文档里有详细说明，并在某个Board里有一个非常简单的例子，直接参考即可。
+在`nrf_esb.h`中定义了一组`esb_`开头的函数，他们具体的用法，在SDK文档里有详细说明，并在某个Board里有一个非常简单的例子，直接参考即可。
 但是，有两个问题：
 
- - esb库中，对地址的定义是按照新的方式，把地址明确区分为base address与prefix。这一点与nRF24的esb有所不同。文档里并没有详细说明。根据其它资料来看，同样一个地址，在nRF51这段，要调整次序。但实际测试下来，并非如此。实际上，nRF24是用40bit地址，也就是一个32bit+8bit，因此，nRF51这里要选4B的base address。然后，地址转换规则就非常简单，比如nRF24这端地址是：0x00feedf00d01,那么到了nRF51这端，base address就是0x00feedf00d，prefix则是01。就是这样直接拆分的。
+ - esb库中，对地址的定义是按照新的方式，把地址明确区分为base address与prefix。这一点与nRF24的esb有所不同。文档里并没有详细说明。根据其它资料来看，同样一个地址，在nRF51这端，要调整次序。但实际测试下来，并非如此。实际上的情况异常简单：nRF24是40bit地址，也就是一个32bit+8bit，因此，nRF51这里要选4B的base address，这样的话，加上8bit的prefix，就刚好是40bit。然后，地址转换规则非常简单，若nRF24这端地址是：`0x00FEEDF00D01`,那么到了nRF51这端，base address就是`0x00FEEDF00D`，prefix则是`0x01`，就是这样直接拆分的。直观看起来，prefix更像是suffix。文档中有提到，空中信号是先发送base address用来快速判断的，所以实际上这个prefix也比较接近suffix的作用。
 
- - esb的lib库有两个，按照文档说法，他们其中一个会复用ble的东西。但是实际测试下来，没发现分别，是否烧录了ble的softDevice，无论用哪个，结果都是一样正常工作。
+ - esb在SDK的Libs/esb里有两个.lib，按照文档说法，似乎它们其中一个会复用BLE的什么东西，且频道不同。但是实际测试下来，没发现分别，是否烧录了BLE的SoftDevice，无论用哪个，结果都是一样正常工作，文档涉及范围外的频道也正常。
