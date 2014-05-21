@@ -1,0 +1,10 @@
+# Site settings
+title: The Ground FLoor
+email: wangdong2@gmail.com
+description: 
+baseurl: ""
+url: "http://wangdong.studio-picea.net"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
