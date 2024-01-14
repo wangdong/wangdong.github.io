@@ -6,4 +6,4 @@
 - [上头成本](上头成本.md)
 
 ---
-wangdong2 at gmail.com
+[王冬（著）© 2024。保留所有权利。](mailto:wangdong2@gmail.com)
