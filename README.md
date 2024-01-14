@@ -6,5 +6,5 @@
 - [上头成本](上头成本.md)
 
 ---
-版权所有 © 2024 [王冬](mailto:wangdong2@gmail.com)。保留所有权利。All Rights Reserved.
+[版权所有 © 2024 王冬。保留所有权利。All Rights Reserved.](mailto:wangdong2@gmail.com)
 
