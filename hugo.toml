@@ -3,7 +3,7 @@ languageCode = 'zh-cn'
 defaultContentLanguage = 'zh-cn'
 title = '朔方札记'
 theme = 'PaperMod'
-copyright = "© 2024 王冬 · 保留所有权利"
+copyright = "© 2024-2025 王冬 · 保留所有权利"
 
 # 时间和日期格式
 timeFormat = "2006年1月2日 15:04:05"
