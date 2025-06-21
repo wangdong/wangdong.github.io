@@ -1,16 +1,42 @@
 # 朔方札记
 
-- [分布与集中以及邓巴数](分布与集中以及邓巴数.md) (2024年01月12日)
-- [书单](书单.md) (2024年01月12日)
-- [现实扭曲力场](现实扭曲力场.md) (2024年01月12日)
-- [上头成本](上头成本.md) (2024年01月13日)
-- [建筑的精神](建筑的精神.md) (2024年01月22日)
-- [关于顶级目标的设定](关于顶级目标的设定.md) (2024年02月08日)
-- [Agent是一种设计模式](Agent是一种设计模式.md) (2025年02月25日)
-- [藏宝图与六分仪](藏宝图与六分仪.md) (2025年06月20日)
-- [成为原生创始人](成为原生创始人.md) (2025年06月20日)
-- [局部速度陷阱](局部速度陷阱.md) (2025年06月20日)
+*思考与记录*
+
+基于Hugo静态站点生成器构建的个人博客，使用PaperMod主题。
+
+## 博客地址
+
+- **线上地址**: [https://wangdong.github.io](https://wangdong.github.io)
+- **本地预览**: `hugo server`
+
+## 技术栈
+
+- **静态站点生成器**: [Hugo](https://gohugo.io/)
+- **主题**: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+- **部署**: GitHub Pages (GitHub Actions)
+
+## 本地开发
+
+```bash
+# 克隆仓库
+git clone --recursive https://github.com/wangdong/wangdong.github.io.git
+
+# 启动本地服务器
+hugo server
+
+# 构建静态文件
+hugo
+```
+
+## 联系方式
+
+- **Twitter**: [@wangdong](https://twitter.com/wangdong)
+- **LinkedIn**: [wangdong027](https://www.linkedin.com/in/wangdong027/)
+- **GitHub**: [@wangdong](https://github.com/wangdong)
+- **Instagram**: [@wangdong](https://instagram.com/wangdong)
+- **邮箱**: wangdong2@gmail.com
 
 ---
-[版权所有 © 2024 王冬。保留所有权利。](mailto:wangdong2@gmail.com)
+
+© 2024 王冬 · 保留所有权利
 
