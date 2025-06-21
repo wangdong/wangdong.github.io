@@ -28,13 +28,6 @@ hugo server
 hugo
 ```
 
-## 联系方式
-
-- **Twitter**: [@wangdong](https://twitter.com/wangdong)
-- **LinkedIn**: [wangdong027](https://www.linkedin.com/in/wangdong027/)
-- **GitHub**: [@wangdong](https://github.com/wangdong)
-- **Instagram**: [@wangdong](https://instagram.com/wangdong)
-
 ---
 
 © 2024 王冬 · 保留所有权利
