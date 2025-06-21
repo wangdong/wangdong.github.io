@@ -2,9 +2,6 @@
 title: "目录"
 date: 2025-06-21
 draft: false
-weight: 1
-tags: []
-categories: []
 ---
 
 - [管理产物，而非流程](/posts/管理产物，而非流程/)

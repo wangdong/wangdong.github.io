@@ -38,5 +38,19 @@ dateFormat = "2006年1月2日"
   name = "linkedin"
   url = "https://www.linkedin.com/in/wangdong027/"
 
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "目录"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "books"
+    name = "书单"
+    url = "/books/"
+    weight = 20
+
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
