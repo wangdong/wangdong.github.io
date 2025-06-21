@@ -11,7 +11,7 @@ dateFormat = "2006年1月2日"
 
 [params]
   author = "王冬"
-  description = "You are what you write."
+  description = "思考与记录"
   keywords = ["blog", "思考", "记录"]
   showReadingTime = false
   showShareButtons = false
@@ -24,7 +24,7 @@ dateFormat = "2006年1月2日"
 
 [params.homeInfoParams]
   Title = "朔方札记 ✍️"
-  Content = "思考与记录"
+  Content = "You are what you write."
 
 [[params.socialIcons]]
   name = "github"
