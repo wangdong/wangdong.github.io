@@ -2,23 +2,27 @@ baseURL = 'https://wangdong.github.io/'
 languageCode = 'zh-cn'
 title = '朔方札记'
 theme = 'PaperMod'
-copyright = "© 2024 王冬 · wangdong2@gmail.com"
+copyright = "© 2024 王冬 · 保留所有权利"
 
 [params]
   author = "王冬"
   description = "思考与记录"
   keywords = ["blog", "思考", "记录"]
-  showReadingTime = true
+  showReadingTime = false
   showShareButtons = false
-  showPostNavLinks = true
-  showBreadCrumbs = true
+  showPostNavLinks = false
+  showBreadCrumbs = false
   showCodeCopyButtons = true
-  showToc = true
+  showToc = false
   defaultTheme = "auto"
 
 [params.homeInfoParams]
   Title = "朔方札记 ✍️"
   Content = "思考与记录"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/wangdong"
 
 [[params.socialIcons]]
   name = "twitter"
@@ -27,31 +31,6 @@ copyright = "© 2024 王冬 · wangdong2@gmail.com"
 [[params.socialIcons]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/wangdong027/"
-
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/wangdong"
-
-[[params.socialIcons]]
-  name = "instagram"
-  url = "https://instagram.com/wangdong"
-
-[[params.socialIcons]]
-  name = "email"
-  url = "javascript:void(0)"
-  title = "点击显示邮箱"
-
-[menu]
-  [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
-    weight = 10
-  [[menu.main]]
-    identifier = "tags"  
-    name = "标签"
-    url = "/tags/"
-    weight = 20
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

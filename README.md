@@ -34,7 +34,6 @@ hugo
 - **LinkedIn**: [wangdong027](https://www.linkedin.com/in/wangdong027/)
 - **GitHub**: [@wangdong](https://github.com/wangdong)
 - **Instagram**: [@wangdong](https://instagram.com/wangdong)
-- **邮箱**: wangdong2@gmail.com
 
 ---
 
