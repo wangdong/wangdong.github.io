@@ -65,9 +65,9 @@ GitHub Actions 工作流（`.github/workflows/hugo.yml`）处理：
 title: "文章标题"
 date: 2024-01-01
 draft: false
-tags: ["标签1", "标签2"]
 ---
 ```
+注意：不要给文章添加 tags 标签
 
 ## 开发注意事项
 
