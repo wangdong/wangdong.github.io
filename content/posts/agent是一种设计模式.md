@@ -2,8 +2,6 @@
 title: "Agent是一种设计模式"
 date: 2025-02-25
 draft: false
-tags: []
-categories: []
 ---
 
 到底什么才是Agent？我认为，成为Agent只需符合一个条件：如果把大模型能力去掉，这个应用就不成立了，那它就是一种Agent。因此，Agent的本质是一种AI应用开发的模式。
