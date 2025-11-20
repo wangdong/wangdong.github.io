@@ -4,6 +4,7 @@ date: 2025-06-21
 draft: false
 ---
 
+- [缺失的中间环节 (The Missing Middle)](/posts/缺失的中间环节%20(The%20Missing%20Middle)/)
 - [你的目标是山顶，还是物理定律？](/posts/你的目标是山顶，还是物理定律？/)
 - [舒适区，你的大本营](/posts/舒适区，你的大本营/)
 - [UBI的问题](/posts/ubi的问题/)
