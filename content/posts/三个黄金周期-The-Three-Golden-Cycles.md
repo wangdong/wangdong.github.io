@@ -1,6 +1,6 @@
 ---
 title: "三个黄金周期 (The Three Golden Cycles)"
-date: 2024-11-22
+date: 2025-11-22
 draft: false
 ---
 
